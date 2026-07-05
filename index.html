@@ -1,15 +1,102 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>AI Trading Terminal</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
-<body style="background:#0B0F19;color:white;font-family:Arial;text-align:center;padding-top:60px;">
+<body>
 
-<h1>🤖 AI Trading Terminal</h1>
+<div class="container">
 
-<p>Frontend berhasil dibuat.</p>
+<div class="logo">
+🤖
+</div>
+
+<div class="title">
+AI Trading Terminal
+</div>
+
+<div class="subtitle">
+Powered by OpenAI
+</div>
+
+<div class="card">
+
+<input
+id="image"
+type="file"
+accept="image/*">
+
+<img id="preview">
+
+</div>
+
+<button>
+
+ANALYZE CHART
+
+</button>
+
+<div
+class="card result"
+id="result">
+
+<h2 class="buy">
+
+BUY
+
+</h2>
+
+<p>
+
+Trend :
+Bullish
+
+</p>
+
+<p>
+
+Entry :
+3365
+
+</p>
+
+<p>
+
+SL :
+3359
+
+</p>
+
+<p>
+
+TP :
+3378
+
+</p>
+
+<p>
+
+Confidence :
+92%
+
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
